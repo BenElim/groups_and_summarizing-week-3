@@ -16,15 +16,13 @@ else:
     print("i stand for one term")
 
 
- # If/ elif/ else conditions
-   # jsDaddie
-    jsMummie ="Yvnonne"
-
-    if jsMummie == "Sony":
-        print("My Number one")
-    elif jsMummie == "cate":
-        print("My Number two")
-    elif jsMummie == "faith":
-        print("My Number three")
+ # if/elif/else condition
+ if age >= 18:
+    print("You are allowed to vote for Sifuna")
+ elif age < 18:
+    print("You are not allowed to vote for Sifuna")
+    elif age == 18:
+    print("You are allowed to vote for Sifuna")
     else:
-        print("My Favorite")
+    print("You are not allowed to vote for Sifuna")
+    
